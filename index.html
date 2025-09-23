@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" crossorigin="anonymous"/>
+
+  <title>Yi Luo | About Me</title>
+
+  <style>
+    :root{
+      --brand:#22394d;
+      --ink:#1f2937;
+      --muted:#6b7280;
+      --accent:#b91c1c;
+      --line:#e5e7eb;
+      --panel:#ffffff;
+      --page:#f5f7fb;
+    }
+
+    body{
+      font-family: 'Roboto', sans-serif;
+      color: var(--ink);
+      background: var(--page);
+      line-height: 1.6;
+    }
+
+    .site-nav{ background: var(--brand); }
+    .site-nav .navbar-brand,
+    .site-nav .nav-link{ color:#fff !important; font-weight:500; }
+    .site-nav .nav-link.active{ border-bottom:2px solid #fff; }
+
+    .page-wrap{
+      max-width: 1140px;
+      margin: 32px auto;
+      padding: 0 16px;
+    }
+
+    .sidebar-card{
+      background: var(--panel);
+      border:1px solid var(--line);
+      border-radius: 10px;
+      box-shadow: 0 1px 3px rgba(0,0,0,.04);
+      padding: 18px;
+    }
+    .sidebar-photo{ border-radius: 8px; box-shadow: 0 4px 14px rgba(0,0,0,.08); width:100%; }
+    .contact-list{ list-style:none; padding-left:0; margin: 16px 0 0 0; }
+    .contact-list li{ display:flex; gap:10px; padding:10px 0; border-bottom:1px solid var(--line); }
+    .contact-list li:last-child{ border-bottom:none; }
+    .contact-list i{ width:20px; color: var(--brand); }
+    .contact-list a{ color:#0b62d0; text-decoration:none; }
+    .contact-list a:hover{ text-decoration:underline; }
+
+    .main-col{
+      background: var(--panel);
+      border:1px solid var(--line);
+      border-radius: 10px;
+      box-shadow: 0 1px 3px rgba(0,0,0,.04);
+      padding: 24px;
+    }
+    h1{ font-family: 'Mulish', sans-serif; font-weight:700; color: #a61111; margin-bottom: 6px; }
+    .lead-line{ color: var(--muted); margin-bottom: 18px; }
+
+    .section-title{ font-family:'Mulish',sans-serif;font-weight:700;color:#881313;margin-top:32px;margin-bottom:12px;position:relative;display:inline-block;padding-bottom:6px; }
+    .section-title:after{ content:""; position:absolute; left:0; right:0; bottom:0; height:2px; background: var(--accent); }
+
+    .proj-list{ padding-left: 18px; }
+    .proj-list li{ margin-bottom:10px; }
+
+    footer{ background: var(--brand); color:#fff; margin-top:40px; }
+    .social a{ display:inline-block; margin: 0 12px; }
+    .social i{ color:#fff; }
+    .copyright{ color:#e2e8f0; font-size: 0.95rem; }
+  </style>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark site-nav">
+    <div class="container page-wrap" style="margin:0 auto;">
+      <a class="navbar-brand" href="#">Yi Luo</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="nav" class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link active" href="#">About Me</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Content -->
+  <div class="page-wrap">
+    <div class="row">
+      <!-- Sidebar -->
+      <div class="col-lg-4 mb-3">
+        <div class="sidebar-card">
+          <img src="img/profile.jpg" class="sidebar-photo" alt="Portrait of Yi Luo">
+          <ul class="contact-list">
+            <li>
+              <i class="fa fa-home"></i>
+              <div>
+                Lafayette College<br>
+                Mathematics &amp; Economics (Minor: Data Science)<br>
+                Easton, PA 18042
+              </div>
+            </li>
+            <li>
+              <i class="fa fa-phone"></i>
+              <div>
+                <a href="tel:+14845422576">+1 (484) 542-2576</a><br>
+                <small class="text-muted">CN: <a href="tel:+8617600583506">+86 176-0058-3506</a></small>
+              </div>
+            </li>
+            <li>
+              <i class="fa fa-at"></i>
+              <div>
+                <a href="mailto:Luoy45802@outlook.com">Luoy45802@outlook.com</a><br>
+                <small class="text-muted">Alt: <a href="mailto:Luo18125@163.com">Luo18125@163.com</a></small>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Main column -->
+      <div class="col-lg-8">
+        <div class="main-col">
+          <h1>Yi Luo</h1>
+          <p class="lead-line">Mathematics, Economics &amp; Data Science | Undergraduate Researcher</p>
+
+          <p>
+            I am an undergraduate at <a href="https://www.lafayette.edu/" target="_blank">Lafayette College</a> studying mathematics and economics with a minor in data science. My work focuses on building multi-year datasets, applying statistical and machine learning methods, and communicating empirical findings for research and policy. I work comfortably across R, Python, and Stata, and I enjoy translating quantitative insights into clear visuals and narratives.
+          </p>
+
+          <p>
+            Recently, I served as a Research Assistant on two projects: environmental health and mortality disparities (Lafayette College, 2000–2023 U.S. county data) and feature engineering/AutoML evaluations (Columbia University). These experiences strengthened my skills in data cleaning, feature engineering, model evaluation, and reproducible workflows.
+          </p>
+
+          <p>Download my <a href="cv/Resume_Yi.pdf" download>résumé (PDF)</a>.</p>
+
+          <h3 class="section-title">Selected Research &amp; Projects</h3>
+          <ul class="proj-list">
+            <li><strong>Environmental Determinants of Health (2000–2023):</strong> Built harmonized county dataset (EPA, NOAA, CDC WONDER); mapped mortality &amp; environment indices; ran regressions.</li>
+            <li><strong>Feature Engineering &amp; AutoML:</strong> Cleaned and imputed data; engineered features; trained/evaluated models (Scikit-learn, TensorFlow).</li>
+            <li><strong>Decision Trees vs. Random Forests:</strong> Benchmarked models; found RF more accurate and stable.</li>
+            <li><strong>Urban Heat Island Analysis:</strong> Compared day/night temperature contrasts across urban buffers; visuals for Chicago and Berlin.</li>
+            <li><strong>Tumor Growth Modeling:</strong> Compared Logistic vs. Gompertz dynamics; Gompertz fit best by RSS and trajectory shape.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="py-4">
+    <div class="page-wrap text-center">
+      <div class="social mb-2">
+        <a href="https://github.com/Ymo26" target="_blank" title="GitHub"><i class="fab fa-github fa-2x"></i></a>
+        <a href="https://www.linkedin.com/feed/?trk=404_page" target="_blank" title="LinkedIn"><i class="fab fa-linkedin fa-2x"></i></a>
+      </div>
+      <div class="copyright">© 2025 Yi Luo</div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
