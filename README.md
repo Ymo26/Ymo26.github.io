@@ -6,8 +6,6 @@ This repository is also a **template**: anyone can fork it and reuse `index.html
 
 ---
 
----
-
 ## What This Is
 - A minimal, framework-free **personal website** that emphasizes:  
   **clean data → careful methods → clear visuals → reproducibility**.
