@@ -21,11 +21,5 @@ This site collects my projects with clear **Basic description**, **Abstract**, a
 - **Urban Heat Island: Mapping & Microclimate Analysis** — OSM footprints + hourly weather;  
   buffers with `sf` and diagnostics show consistent **nocturnal warming** in dense cores; scalable cross-city comparisons.
 
-## Quick links
-- **Research:** `/research.html`
-- **Papers:** `/paper/`
-- **Results:** `/results/`
-- **CV:** `/cv/Yi_Luo_CV.pdf`
-
 ## Built with
 HTML/CSS/JS · Python (pandas, matplotlib, scikit-learn, TensorFlow) · R (sf, dplyr, ggplot2) · GitHub Pages
