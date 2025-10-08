@@ -1,35 +1,24 @@
-# Ymo26.github.io
-**Naming tips**
-- Use kebab-case and include dates when helpful: `UHI-2025-results-plot1.png`
-- Keep PDFs small; compress images for faster loads.
+# Yi Luo — Portfolio & Research Site
 
----
+**Live site:** https://ymo26.github.io/
 
-## 🧭 How to Add a New Research Project
-Each project card shows **Basic Description** and **Abstract**, plus links to outputs.
+I build data-driven stories at the intersection of **Mathematics, Economics, and Electrical/Computer Engineering**.  
+On this site I publish research notes, class projects, and reproducible outputs that move from **clean data → careful methods → clear visuals**.
 
-1. **Upload assets**
-   - Put figures in `img/`, code snippets (if any) in `results/`, and papers in `paper/`.
-2. **Edit the Research page**
-   - Open your Research page (e.g., `research.html` if you split it; otherwise section within `index.html`).
-   - Add a new block following this pattern:
+### What I do
+- **Forecasting & ML:** LSTM and traditional models for economic time series; feature engineering and evaluation workflows.
+- **GIS & Environment:** Urban Heat Island analysis with Python + open data; map-first storytelling.
+- **Causal/Econometrics:** Regression diagnostics, model selection, and policy-focused inference.
+- **Decision & Optimization:** AHP survey design and ranking; scenario analysis and trade-off visualization.
+- **Systems & Sensors:** Raspberry Pi Pico projects (IMU, I2C), control logic, and data logging.
 
-```html
-<article class="proj">
-  <h3>Project Title <span class="tag">Category or Course</span></h3>
-  <div class="meta">Stack/Methods: Python (pandas, matplotlib), AHP, survey design</div>
+### Highlights on the site
+- **Election Campaign Projections (Python):** data cleaning, swing-state mapping, and interpretable visuals.  
+- **Urban Heat Island (GIS/Python):** pipeline from open sources to maps and summary stats.  
+- **Economic Forecasting with a Tunable LSTM:** bridging classical baselines and deep learning.  
+- **LaFarm Motivation Study (AHP):** survey design → pairwise comparisons → priority weights → dashboards.
 
-  <p><span class="label">Basic description:</span>
-    1–3 sentences summarizing the goal and what you built.
-  </p>
+### Built with
+HTML/CSS/JS, Python (pandas, matplotlib), R, LaTeX, and GitHub Pages for deployment.
 
-  <p><span class="label">Abstract:</span>
-    4–6 sentences: data, methods, key results, and what’s novel.
-  </p>
-
-  <p class="links">
-    <a href="paper/Project_Title_2025.pdf" target="_blank">Paper</a> ·
-    <a href="results/Project_Title_outputs.html" target="_blank">Outputs</a> ·
-    <a href="https://github.com/Ymo26/ProjectRepo" target="_blank">Code (GitHub)</a>
-  </p>
-</article>
+> **Goal:** make methods transparent and results reproducible—so others can learn, reuse, or extend.
