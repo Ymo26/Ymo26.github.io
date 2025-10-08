@@ -8,24 +8,6 @@ This repository is also a **template**: anyone can fork it and reuse `index.html
 
 ---
 
-## Table of Contents
-- [What This Is](#what-this-is)
-- [Features](#features)
-- [Selected Projects (Highlights)](#selected-projects-highlights)
-- [Tech Stack](#tech-stack)
-- [Folder Structure](#folder-structure)
-- [Prerequisites](#prerequisites)
-- [Quick Start — Use This as Your Own Site](#quick-start--use-this-as-your-own-site)
-- [Local Development](#local-development)
-- [Usage & Customization (Step-by-Step)](#usage--customization-stepbystep)
-- [Deployment (GitHub Pages)](#deployment-github-pages)
-- [Content Guidelines & Best Practices](#content-guidelines--best-practices)
-- [Contributing](#contributing)
-- [License](#license)
-- [Roadmap / Known Issues](#roadmap--known-issues)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
-
 ---
 
 ## What This Is
@@ -56,15 +38,3 @@ This repository is also a **template**: anyone can fork it and reuse `index.html
 ## Tech Stack
 **HTML/CSS/JS** • **Python** (pandas, matplotlib, scikit-learn, TensorFlow) • **R** (sf, dplyr, ggplot2) • **GitHub Pages**
 
----
-
-## Folder Structure
-├─ css/ # Stylesheets
-├─ js/ # Small interactions (optional)
-├─ img/ # Images, logos, screenshots
-├─ cv/ # CV/Resume PDFs
-├─ paper/ # Papers and writeups (PDF)
-├─ results/ # Outputs: plots, HTML reports, tables
-├─ index.html # Landing page (template-ready)
-├─ research.html # (optional) Detailed research page
-└─ README.md
