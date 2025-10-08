@@ -4,8 +4,6 @@
 A fast, reproducible academic portfolio showcasing projects in **ML forecasting**, **GIS & environmental health**, **econometrics**, and **sensor systems**.  
 This repository is also a **template**: anyone can fork it and reuse `index.html` to build a personal website.
 
-![screenshot placeholder](img/hero_screenshot.png)
-
 ---
 
 ---
